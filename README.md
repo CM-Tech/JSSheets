@@ -1,2 +1,3 @@
 # JSSheets
-##This was forked from tripplyons jssheets, and made to look like google spreadsheets
+##Forked
+This was forked from (tripplyons)[https://github.com/tripplyons/] (jssheets)[https://github.com/tripplyons/JSSheets], and made to look like google spreadsheets
