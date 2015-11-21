@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>JSSheets</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="waffle.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="calx/jquery-calx-2.2.2.min.js"></script>
+        <script>
+            
+        </script>
+        <style>
+            .ui-dialog .ui-dialog-titlebar {
+                background-color: #34495e;
+                background-image: none;
+                border-color: #2c3e50;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="formula-bar">
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="t-formula-bar-label">
+                            <div class="docs-icon goog-inline-block">
+                                <div class="docs-icon-img-container docs-icon-img docs-icon-insert-formula"></div>
+                            </div>
+                        </td>
+                        <td class="formula-bar-separator">
+                            <div></div>
+                        </td>
+                        <td id="t-formula-bar-input-container">
+                            <div dir="ltr">
+                                <div spellcheck="false" aria-hidden="false" id="t-formula-bar-input" style="width: 100%;">
+                                    <div class="cell-input" tabindex="0" role="combobox" contenteditable="true" dir="ltr" aria-autocomplete="list">
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td id="t-formula-bar-progress-bar" style="display:none;">
+                            <div id="t-formula-bar-progress-bar-inner" class="jfk-progressBar-blocking progress-bar-horizontal" role="progressbar" aria-live="polite" aria-valuenow="100">
+                                <div class="progress-bar-thumb" style="width: 100%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="canvas-cont">
+            <canvas id="canvas" width="1000" height="400" style="border:none">Your browser does not support the HTML5 canvas tag.
+            </canvas>
+        </div>
+        <form id="calx_form" class="calx-hidden">
+            <input data-cell="A1" data-formula="1">
+            <input data-cell="A2">
+            <input data-cell="A3">
+
+            <input data-cell="B1" data-formula="A1+2">
+            <input data-cell="B2">
+            <input data-cell="B3">
+            <input data-cell="B4">
+        </form>
+
+        <script src="MiloAndCole.js"></script>
+    </body>
+
+</html>
