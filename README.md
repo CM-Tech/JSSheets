@@ -6,5 +6,5 @@ Place an = sign at the start of input to symbolize a function
 
 | Function  | Usage |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| Add/Sum  | Adds the inputs (seperated by a space) together |
 | Content Cell  | Content Cell  |
